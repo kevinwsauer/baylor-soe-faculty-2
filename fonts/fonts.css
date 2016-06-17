@@ -1,0 +1,62 @@
+/* @license
+ * My fonts Webfont Build ID 2229743, 2012-04-13T11:52:06-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Web/fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Futura Book by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstreamfutura/book/
+ * Licensed pageviews: 20,000,000
+ * 
+ * Webfont: Futura Book Italic by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstreamfutura/book-italic/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Futura Medium by Bitstream
+ * URL: http://www.my/fonts.com//fonts/bitstreamfutura/medium/
+ * Licensed pageviews: unlimited
+ * 
+ * Webfont: Futura Medium Italic by Bitstream
+ * URL: http://www.my/fonts.com//fonts/bitstreamfutura/medium-italic/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Futura Bold by Bitstream
+ * URL: http://www.my/fonts.com//fonts/bitstreamfutura/bold/
+ * Licensed pageviews: unspecified
+ * 
+ * Webfont: Futura Bold Italic by Bitstream
+ * URL: http://www.my/fonts.com//fonts/bitstreamfutura/bold-italic/
+ * Licensed pageviews: unspecified
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2376473
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2229743
+ * Web/fonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * Â© 2012 Bitstream Inc
+*/
+
+/* NEW */
+
+@font-face {
+    font-family: 'FuturaBT';
+    font-style: normal;
+    font-weight: 400;
+    src: url('futura/244319_0_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'FuturaBT';
+    font-style: normal;
+    font-weight: 500;
+    src: url('futura/2205EF_0_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'FuturaBT';
+    font-style: normal;
+    font-weight: 700;
+    src: url('futura/2205EF_2_0.woff') format('woff');
+}

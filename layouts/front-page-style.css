@@ -1,0 +1,236 @@
+/*
+* Theme Name: SOE-Faculty2
+* Layout: Front page
+*/
+.page .site-content { 
+	padding-bottom: 4em;
+    background: #fff; 
+    background: hsl(0, 0%, 100%);
+} 
+
+.front-page .entry-content {
+	position: relative;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;	
+}
+
+.indent {
+    max-width: 1280px;
+    margin: 0 auto;
+	padding: 0;
+}
+
+.section-title {
+   	margin-top: .5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-size: 32px;
+	font-size: 3.2rem;
+    line-height: 1.3em;
+	text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+	.wrapper {
+		width: 1280px;
+		margin: 0 auto;
+	}
+}		
+
+/*CALL TO ACTION*/ 
+
+#call-to-action {
+    padding: 2rem 0 0;
+}	
+
+#call-to-action .section-title {
+	color: #8BA034;
+	color: hsl(72,51%,42%);
+}
+
+#call-to-action .entry-content {
+    font-size: 16px;
+    font-size: 1.6rem;
+	padding: 0 2rem;
+}
+
+@media screen and (max-width: 680px) {
+	
+	#call-to-action .section-title {
+		font-size: 32px;
+        font-size: 3.2rem;
+	}
+	
+	#call-to-action .entry-content {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+}
+
+/* ALL FACULTY */ 
+.ui-tabs {
+	padding: 2rem 0 0;
+}
+
+.ui-tabs .faculty-nav {
+	margin: 0 auto;
+	padding: 0;
+	background: #313131;
+    background: hsl(0, 0%, 19%);
+}
+
+.ui-tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-tabs-nav li {
+    float: left;
+	width: 25%;
+	background: #313131;
+    background: hsl(0, 0%, 19%);
+}
+
+.ui-tabs-nav a {
+    display: block;
+    padding: 1.3em 1em;
+    font-size: 14px;
+    font-size: 1.4rem;
+	font-family: 'FuturaBT', sans-serif;
+    text-align: center;
+	text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: white;
+    color: hsl(0, 0%, 100%);
+}
+
+.ui-tabs-nav li:hover > a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px ) {
+	.ui-tabs-nav li {
+		float: none;
+		width: 100%;
+		border-bottom: 1px solid #fff;
+	}
+	
+	.ui-tabs-nav li:hover > a {
+		text-decoration: none;
+	}
+}
+
+#all-faculty,
+#ci-faculty,
+#ea-faculty;
+#ep-faculty {
+    padding: 4rem 0;
+}
+
+.all-faculty {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex:  row wrap;
+    -moz-box-flex:  row wrap;
+    -webkit-flex:  row wrap;
+    -ms-flex:  row wrap;
+    flex: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.all-faculty li {
+    padding: 2rem;
+    width: 100%;
+	float: none;
+}
+
+.all-faculty li:hover a {
+	text-decoration: none; 
+}
+
+.all-faculty li:hover img {
+	opacity: 0.7;
+	transition: opacity 0.2s ease 0s;
+}
+
+.all-faculty-thumb {
+	max-width: 210px;
+	margin: 0 auto;
+	float: none;
+}
+
+.all-faculty-thumb img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.all-faculty-text {
+	float: none;
+	width: auto;
+	margin: 0;
+}
+
+.all-faculty-name {
+    margin: 1rem 0;	
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 2rem;
+	line-height: 1.2em;
+}
+
+.all-faculty-department {
+	margin: 1rem 0;	
+	font-weight: bold;
+    font-size: 18px;
+    font-size: 1.8rem;
+	color: #8BA034;
+	color: hsl(72,51%,42%);
+}
+
+.all-faculty-title {
+    font-weight: 400;
+	font-size: 16px;
+    font-size: 1.6rem;
+	font-style: italic;
+    margin: 1rem 0;
+}
+
+.all-faculty-name,
+.all-faculty-title,
+.all-faculty-department {
+	text-align: center;
+}
+
+/* ALL FACULTY RESPONSIVE */ 
+@media screen and (min-width: 1280px) {
+    .all-faculty li {
+        width: 25%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1279px) {
+    .all-faculty li {
+        width: 33%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 999px) {
+    .all-faculty li {
+        width: 50%;
+        float: left;
+    }
+}
